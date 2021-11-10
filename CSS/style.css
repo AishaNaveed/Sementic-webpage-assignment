@@ -1,182 +1,173 @@
-body
-{
-	background-color: #fff;
-	color: #555;
+body{
+	width: 100%;
+	height: 100%;
+	font-family: Gotu;
 }
 
-.left {
-float: left;
-vertical-align: middle;
-}
-form{
-	display:inline;
-}
-
-.right {
-	float: right;
-	vertical-align: middle;
-	}
-.middle {
-		text-align:center;
-		vertical-align: middle;
-		}
-.container
-{
+.w-80{
 	width: 80%;
+	height: auto;
 	margin: auto;
-	overflow: hidden;	/*so there is no scroll bars if something goes out of container*/
+	padding: 0 100px 0 100px;
+}
+/* Start Header Coding */
+
+header{
+	width: 100%;
+	height: 55px;
+	background: darkolivegreen;
+	float: left;
 }
 
-.heading {
-    
-    font-size: 2em;
-display:inline;
-    font-weight: bold;
-}
-
-.phonenumber
-{
-    background-repeat: no-repeat;
-    background-position: 3px 18px;
-    color: #000;
-    float: right;
-    padding: 16px 20px 0 20px;
-    font-size: 14px;
-    font-family: 'Signika', sans-serif;
-}
-
-#main-header
-{
-	/*background-color: cornflowerblue;*/
-	color: brown;
-}
-
-
-#navbar
-{
-	background-color: lemonchiffon;
-	color: black;
-}
-
-#navbar ul
-{
-	list-style: none;
+header .menu{
+	width: 95%;
+	height: 65px;
+	margin: auto;
 	padding: 0;
 }
 
-#navbar li
-{
-	display: inline;
-	padding: 15px;
+header .menu .brand-name{
+	width: 35%;
+	float: left;
 }
-
-#navbar a
-{
+header .menu .brand-name a{
 	text-decoration: none;
-	font-size: 18px;
-	padding: 12px;
 }
 
-#navbar a:hover
-{
+header .menu .brand-name h2{
+	font-family: Gotu;
+	font-size: 30px;
+	color: white;
+}
+/* start nav ul li coding */
+header .menu nav{
+	width: 65%;
+	float: left;
+}
+
+header .menu nav ul{
+	list-style: none;
+}
+
+header .menu nav ul li{
+	display: inline-flex;
+	margin: 6px 8px;
+	padding: 2px 6px;
+}
+
+header .menu nav ul li:hover{
+	border:none;
+	border-bottom: 3px solid red;
+}
+
+header .menu nav ul li:hover a{
+	color: #00bcd4;
+}
+
+header .menu nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-family: Gotu;
+	font-size: 16px;
+	font-weight: bold;
+}
+/* End Header Coding */
+
+/* Start main Section Coding */
+section{
+	width: 100%;
+	float: left;
+}
+section .section-img{
+	width: 100%;
+	height: 480px;
+	background: url(../Images/clinic.PNG);
+    background-size: cover;
+}
+section .section-bg-box{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0);
+	text-align: center;
+	padding: 5% 0 0 0;
+}
+section .section-bg-box h1{
+	background: green;
+	color: white;
+	font-size: 30px;
+	width: 50%;
+	margin: auto;
+}
+section .section-bg-box h2{
+	
+	color: black;
+	width: 60%;
+	margin: auto;
+	font-size: 15px;
+}
+section .welcome-text{
+	font-size: 25px;
+    width: 60%;
+    padding: 0;
+    color: black;
+}
+section .welcome-text a{
+	color: darkslategrey;
+	text-decoration: none;
+	font-family: Gotu;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+section .welcome-text a:hover{
+	border:none;
+	border-bottom: 3px solid red;
+    color: #00bcd4;
+}
+
+section p{
+	font-size: 20px;
+	text-align: justify;
+}
+section ul{
+	padding: 0;
+	margin-left:10px;
+	margin-top: 20px;
+	list-style: none;
+}
+section ul li{
+	font-size: 20px;
+	line-height: 30px;
+}
+section h2{
+	font-size: 30px;
+}
+/* End main Section Coding */
+/* Start Footer Coding */
+
+footer{
+	width: 100%;
+	background: black;
+	float: left;
+	color: white;
+	padding: 10px 0;
+}
+
+footer .footer-box{
+	width: 33%;
+	float: left;
+	height: 100%;
+    font-size: 20px;
+}
+
+footer .footer-box a{
+	display: block;
+	font-family: Gotu;
+	color: white;
+	font-size: 20px;
+}
+footer .footer-box a:hover{
+	text-decoration: none;
 	color: red;
 }
-
-#navbar a:active
-{
-	color: green;
-}
-
-#showcase
-{
-	/*background-image: url('clinic.png');*/
-	background-position: center right;
-	min-height: 100px;		/*it will vary the height of the image as per the size of the page making it more responsive*/
-	text-align: center;
-	margin-bottom: 20px;
-}
-
-#showcase h1
-{
-	color: black;
-	font-size: 20px;
-	line-height: 1.6em;
-	padding-top: 20px;
-}
-
-#mainbody
-{
-	float: left;
-	width: 60%;
-	padding: 0 30px;
-	box-sizing: border-box;
-}
-
-#sidebar
-{
-	float: right;
-	width: 40%;
-	background-color: darkslategrey;
-	color: white;
-	padding: 0 30px;
-	box-sizing: border-box;
-}
-
-.footer
-{
-	width: 100%;
-	margin: auto;
-	overflow: hidden;
-}
-.footersection
-{
-	float: left;
-}
-	
-.footeraside
-{
-	float: right;
-}
-
-#main-footer
-{
-	width: 40%;
-	margin: auto;
-	overflow: auto;
-
-	background-color: darkslategrey;
-	color: white;
-	text-align: center;
-	padding: 0 700px 0 100px;
-	margin-top: 100px;
-}
-
-.my-form
-{
-	padding: 20px;
-}
-.my-form .form-group
-{
-	padding-bottom: 15px;
-}
-
-/*--to align the labels with box*/
-.my-form label
-{
-	display: block;
-}
-
-/*to make the website full responsive we add media query*/
-@media(max-width:600px)
-{
-	#mainbody
-	{
-		width: 100%;
-		float: none;
-	}
-	#sidebar
-	{
-		width: 100%;
-		float: none;
-	}
-}
+/* End Footer Coding */
