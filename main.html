@@ -93,35 +93,34 @@
                     <h3>User Registration</h3>
                     <hr style="width:50%;text-align:left;margin-left:0">
                     <form>
-                        <label for="name"><b>Name :</b></label><br />
+                        <label for="Yourself">
+                            <input id="Yourself" type="checkbox" name="personality" checked="">Yourself
+                        </label>
+                        <label for="Someone else">
+                            <input id="Someone else" type="checkbox" name="personality">Someone else
+                        </label>
+                        <br /><br /><br /><br />
+                        <label for="name"><b>First Name :</b></label><br />
                         <input type="text" name="name" id="name" />
                         <br /><br />
-
+                        <label for="name"><b>Last Name :</b></label><br />
+                        <input type="text" name="name" id="name" />
+                        <br /><br />
+                        <label for="date of birth"><b>Date of birth :</b></label><br />
+                        <input type="date" name="DOB" id="DOB" />
+                        <br /><br />
                         <label for="email"><b>Email :</b></label><br />
                         <input type="email" name="email" id="email" />
                         <br /><br />
-
                         <label for="mobile"><b>Mobile :</b></label><br />
                         <input type="number" name="mobile" id="mobile" />
                         <br /><br />
-
-                        <label for="username"><b>Username :</b></label><br />
-                        <input type="text" name="username" id="username" />
-                        <br /><br />
-
-                        <label for="password"><b>Password :</b></label>
+                        <label for="Message"><b>Your Query :</b></label>
                         <br />
-                        <input type="password" name="password" id="password" />
+                        <textarea> </textarea>
                         <br /><br />
-
-                        <label for="re-password"><b>Confirm Password :</b></label>
-                        <br />
-                        <input type="password" name="re-password" id="re-password" />
-                        <br /><br />
-
                         <button type="submit" id="register-btn">Submit</button>
                     </form>
-
                 </section>
                 <aside class="sidevideo">
                     <h2>How to use Ask My Doc?</h2>
@@ -152,6 +151,8 @@
         </section>
     </footer>
     <!-- End footer Coding-->
+
+
 </body>
 
 </html>

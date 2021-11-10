@@ -13,6 +13,7 @@ body{
 	margin: auto;
 	padding: 0 100px 0 100px;/**/
 }
+
 /* Start Header Coding */
 
 header{
@@ -204,20 +205,27 @@ section h2{
 
 .sidevideo{
 	float: right;
-	width: 50%;
-	padding: 0 30px;
+	width: 40%;
+	padding: 10px;
 	box-sizing: border-box;
 }
 
 /*Start of form Boxes*/
+section .form-box label{
+	
+	float: left;
+	width: 20%;
+}
+
 section .form-box form{
 	margin-top: 20px;
 	margin-left: 20px;
 	float: left;
-	width: 50%;
-	padding: 0 30px;
-	box-sizing: content-box;
+	width: 60%;
+	padding: 10px;
+	box-sizing: border-box;
 }
+
 section .form-box input:focus,textarea:focus,button:focus{
 	outline: none;
 }
@@ -290,3 +298,4 @@ footer .footer-box a:hover{
 	color: red;
 }
 /* End Footer Coding */
+
