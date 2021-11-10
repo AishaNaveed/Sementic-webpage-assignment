@@ -201,6 +201,67 @@ section h2{
     color: #00bcd4;
 }
 /*End of boxes Coding*/
+
+.sidevideo{
+	float: right;
+	width: 50%;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+
+/*Start of form Boxes*/
+section .form-box form{
+	margin-top: 20px;
+	margin-left: 20px;
+	float: left;
+	width: 50%;
+	padding: 0 30px;
+	box-sizing: content-box;
+}
+section .form-box input:focus,textarea:focus,button:focus{
+	outline: none;
+}
+section .form-box input,textarea{
+	width: 50%;
+	height: 35px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	padding: 0 10px;
+	font-family: Gotu;
+	font-size: 16px;
+}
+textarea{
+	height: 100px;
+}
+section .form-box form #register-btn,#login-btn,#contact-btn{
+	font-family: Muli;
+	font-size: 20px;
+	color: white;
+	padding: 10px;
+	border:none;
+	cursor: pointer;
+	border-radius: 3px;
+}
+section .form-box form #login-btn{
+	background: red;
+}
+section .form-box form #contact-btn{
+	background: blue;
+}
+section .form-box form #register-btn{
+	background: #007bff;
+}
+section .form-box form #contact-btn:hover{
+	background: #080896;
+}
+section .form-box form #login-btn:hover{
+	background: #9E0707;
+}
+section .form-box form #register-btn:hover{
+	background: blue;
+}
+
+/*End of form boxes*/
 /* Start Footer Coding */
 
 footer{
