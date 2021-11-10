@@ -1,22 +1,27 @@
 body{
-	width: 100%;
-	height: 100%;
-	font-family: Gotu;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	background-color: honeydew;
 }
 
-.w-80{
+.container{
 	width: 80%;
-	height: auto;
+	height: auto;/**/
 	margin: auto;
-	padding: 0 100px 0 100px;
+	padding: 0 100px 0 100px;/**/
 }
 /* Start Header Coding */
 
 header{
 	width: 100%;
-	height: 55px;
-	background: darkolivegreen;
-	float: left;
+	min-height: 120px;
+	background: darkslategray;
+	color: white;
+	padding-top: 20px;
+	border-bottom: orangered 3px solid;
 }
 
 header .menu{
@@ -35,14 +40,15 @@ header .menu .brand-name a{
 }
 
 header .menu .brand-name h2{
-	font-family: Gotu;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-size: 30px;
 	color: white;
+	margin-left: 30px;
 }
 /* start nav ul li coding */
 header .menu nav{
 	width: 65%;
-	float: left;
+	float: right;
 }
 
 header .menu nav ul{
@@ -71,6 +77,25 @@ header .menu nav ul li a{
 	font-size: 16px;
 	font-weight: bold;
 }
+
+header .menu form{
+	width: 30%;
+	float: right;
+	
+}
+header .menu input{
+	padding: 4px;
+	height: 25px;
+	width: 175px;
+}
+
+header .menu button{
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 25px;
+	background-color: darkorange;
+}
+
 /* End Header Coding */
 
 /* Start main Section Coding */
@@ -81,27 +106,27 @@ section{
 section .section-img{
 	width: 100%;
 	height: 480px;
-	background: url(../Images/clinic.PNG);
+	background: url(../Images/clinic.PNG) no-repeat; 
     background-size: cover;
 }
 section .section-bg-box{
 	width: 100%;
 	height: 100%;
-	background: rgba(0,0,0,0);
+	/*background: rgba(0,0,0,0);*/
 	text-align: center;
-	padding: 5% 0 0 0;
+	/*padding: 5% 0 0 0;*/
 }
 section .section-bg-box h1{
-	background: green;
+	background: dimgrey;
 	color: white;
-	font-size: 30px;
-	width: 50%;
+	font-size: 25px;
+	width: 35%;
 	margin: auto;
 }
 section .section-bg-box h2{
 	
 	color: black;
-	width: 60%;
+	width: 90%;
 	margin: auto;
 	font-size: 15px;
 }
@@ -143,11 +168,44 @@ section h2{
 	font-size: 30px;
 }
 /* End main Section Coding */
+/*Start of boxes Coding*/
+#boxes{
+	margin-top: 20px;
+}
+
+#boxes .box{
+	float: left;
+	text-align: center;
+	width: 20%;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+
+#boxes .box img{
+	width: 170px;
+	height: 100px;
+}
+
+#boxes .box a{
+	color: darkslategrey;
+	text-decoration: none;
+	font-family: Gotu;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#boxes .box a:hover{
+	border:none;
+	border-bottom: 3px solid red;
+    color: #00bcd4;
+}
+/*End of boxes Coding*/
 /* Start Footer Coding */
 
 footer{
 	width: 100%;
-	background: black;
+	background: darkslategray;
 	float: left;
 	color: white;
 	padding: 10px 0;
