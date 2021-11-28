@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="keywords" content="clinic, Surgery, medical">
     <meta name="author" content="Aisha Naveed">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
     <title>Tech Returners Surgery</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -39,20 +40,20 @@
     </header>
 
     <main>
-        <section class="container" style="padding: 5% 0 0 10% ;">
+        <section class="container">
+            <article class="section-bg-box">
+                <h2> COVID RESTRICTION UPDATE</h2>
+                <p>Throughout the pandemic we have strove to make the surgery as safe as possible for all our
+                    patients and staff, we will continue to do so.</p>
+                <p>From the <span> 19TH JULY 2021 NOTHING WILL CHANGE AT THE SURGERY</span> – Patients will still need to
+                    wear a mask, socially distance and use hand sanitiser in the surgery and staff will continue to
+                    wear PPE.</p>
+                <p>If you arrive without a mask and are not exempt, you will be asked to leave.</p>
+            </article>
             <div class="section-img">
-                <article class="section-bg-box">
-                    <h2> COVID RESTRICTION UPDATE</h2>
-                    <p>Throughout the pandemic we have strove to make the surgery as safe as possible for all our
-                        patients and staff, we will continue to do so.</p>
-                        <p>From the 19TH JULY 2021 NOTHING WILL CHANGE AT THE SURGERY – Patients will still need to
-                        wear a mask, socially distance and use hand sanitiser in the surgery and staff will continue to
-                        wear PPE.</p>
-                        <p>If you arrive without a mask and are not exempt, you will be asked to leave.</p>
-                </article>
+
             </div>
-            <!-- text decoration -->
-            <br /><br />
+
             <section>
                 <h2 class="welcome-text"> Welcome to the Tech Returners Surgery</h2>
                 <p>Tech Returners surgery aims to provide its patients with a high standard of medical care in a safe,
@@ -85,45 +86,49 @@
             </section>
             <br />
             <section class="container">
-                <div class="form-box">
-                    <h3>User Registration</h3>
-                    <hr style="width:50%;text-align:left;margin-left:0">
-                    <form>
-                        <label for="Yourself">
-                            <input id="Yourself" type="checkbox" name="personality" checked="">Yourself
-                        </label>
-                        <label for="Someone else">
-                            <input id="Someone else" type="checkbox" name="personality">Someone else
-                        </label>
-                        <br /><br /><br /><br />
-                        <label for="name"><b>First Name :</b></label><br />
-                            <input type="text" name="name" id="name" value="First Name"/>
-                        <br /><br />
-                        <label for="name"><b>Last Name :</b></label><br />
-                            <input type="text" name="name" id="name" value="Last Name"/>
-                        <br /><br />
-                        <label for="date of birth"><b>Date of birth :</b></label><br />
-                            <input type="date" name="DOB" id="DOB" value="DOB"/>
-                        <br /><br />
-                        <label for="email"><b>Email :</b></label><br />
-                            <input type="email" name="email" id="email" value="someone@email.com"/>
-                        <br /><br />
-                        <label for="mobile"><b>Mobile :</b></label><br />
-                            <input type="tel" name="mobile" id="mobile" value="0044-xxx"/>
-                        <br /><br />
-                        <label for="Message"><b>Your Query :</b></label>
-                        <br />
-                        <!--to show multi line text input for better visual of written query-->
-                        <textarea> </textarea>
-                        <br /><br />
-                        <button type="submit" id="register-btn">Submit</button>
-                    </form>
-                </div>
-                <aside class="sidevideo">
+                <h2>User Registration</h2>
+                <hr>
+                <form class="form-box">
+                    <!--created check boxes -->
+                    <input id="Yourself" type="checkbox" name="personality" value="Yourself">
+                    <label for="Yourself"><strong>Yourself</strong></label>
+
+                    <input id="Someone else" type="checkbox" name="personality" value="Someone else">
+                    <label for="Someone else"><strong>Someone else</strong></label>
+                    <br /><br />
+
+                    <!--created form fields-->
+                    <input type="text" name="name" id="name" placeholder="First Name..." />
+                    <label for="name"><strong>First Name :</strong></label>
+                    <br /><br />
+
+                    <input type="text" name="name" id="name" placeholder="Last Name..." />
+                    <label for="name"><strong> Name :</strong></label>
+                    <br /><br />
+
+                    <input type="date" name="date-of-birth" id="date-of-birth" placeholder="DOB..." />
+                    <label for="date-of-birth"><strong>Date of birth :</strong></label>
+                    <br /><br />
+
+                    <input type="email" name="email" id="email" placeholder="someone@email.com" />
+                    <label for="email"><strong>Email :</strong></label>
+                    <br /><br />
+
+                    <input type="tel" name="mobile" id="mobile" placeholder="0044-xxx" />
+                    <label for="mobile"><strong>Mobile :</strong></label>
+                    <br /><br />
+
+                    <textarea id="Message"> </textarea>
+                    <label for="Message"><strong>Your Query :</strong></label>
+                    <br /><br />
+
+                    <button type="submit" id="register-btn">Submit</button>
+                </form>
+                <article class="sidevideo">
                     <h2>How to use Ask My Doc?</h2>
-                    <iframe width="420" height="315" src="https://www.youtube.com/embed/sFzCh-HhaWo">
+                    <iframe width="450" height="315" src="https://www.youtube.com/embed/sFzCh-HhaWo">
                     </iframe>
-                </aside>
+                </article>
             </section>
     </main>
 

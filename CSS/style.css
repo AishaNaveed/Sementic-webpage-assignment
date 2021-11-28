@@ -9,9 +9,9 @@ body{
 
 .container{
 	width: 80%;
-	height: auto;/**/
+	height: auto;
 	margin: auto;
-	padding: 0 100px 0 100px;/**/
+	padding: 2% 0 0 10%;
 }
 
 /* Start Header */
@@ -99,10 +99,16 @@ header .menu button{
 /* End Header */
 
 /* Start main Section */
+span{
+	color: crimson;
+	font-weight: bold;
+}
+
 section{
 	width: 100%;
 	float: left;
 }
+
 section .section-img{
 	width: 100%;
 	height: 480px;
@@ -114,20 +120,25 @@ section .section-bg-box{
 	height: 100%;
 	text-align: center;
 }
+
 section .section-bg-box h2{
-	background: dimgrey;
-	color: white;
-	font-size: 25px;
-	width: 35%;
+	color:black;
+	font-size: 2em;
+	text-decoration: underline;
+	width: 50%;
 	margin: auto;
 }
+
 section .section-bg-box p{
 	
-	color: black;
-	width: 90%;
+	color:black;
+	width: 98%;
 	margin: auto;
-	font-size: 15px;
-	font-family: Gotu ;
+	/* font-weight: bold; */
+	padding: 0.2em;
+	font-size: 1.2em;
+	text-align: center;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 section .welcome-text{
 	font-size: 25px;
@@ -204,8 +215,8 @@ section h2{
 /*End of links*/
 
 .sidevideo{
-	float: right;
-	width: 40%;
+	float: left;
+	width: 50%;
 	padding: 10px;
 	box-sizing: border-box;
 }
@@ -241,12 +252,13 @@ section .form-box input,textarea{
 textarea{
 	height: 100px;
 }
-section .form-box form #register-btn,#login-btn,#contact-btn{
+section .form-box #register-btn, #login-btn, #contact-btn{
 	font-family: Muli;
 	font-size: 20px;
 	color: white;
 	padding: 10px;
 	border:none;
+	background-color: crimson;
 	cursor: pointer;
 	border-radius: 3px;
 }
