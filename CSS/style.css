@@ -11,7 +11,7 @@ body{
 	width: 80%;
 	height: auto;
 	margin: auto;
-	padding: 2% 0 0 10%;
+	padding: 2% 0 0 5%;
 }
 
 /* Start Header */
@@ -104,24 +104,24 @@ span{
 	font-weight: bold;
 }
 
-section{
+/* section{
 	width: 100%;
 	float: left;
-}
+} */
 
-section .section-img{
-	width: 100%;
+.section-img{
+	width: 90%;
 	height: 480px;
 	background: url(../Images/clinic.PNG) no-repeat; 
     background-size: cover;
 }
-section .section-bg-box{
+.section-bg-box{
 	width: 100%;
 	height: 100%;
 	text-align: center;
 }
 
-section .section-bg-box h2{
+ .section-bg-box h2{
 	color:black;
 	font-size: 2em;
 	text-decoration: underline;
@@ -132,7 +132,7 @@ section .section-bg-box h2{
 section .section-bg-box p{
 	
 	color:black;
-	width: 98%;
+	width: 95%;
 	margin: auto;
 	/* font-weight: bold; */
 	padding: 0.2em;
@@ -286,14 +286,15 @@ section .form-box form #register-btn:hover{
 footer{
 	width: 100%;
 	background: darkslategray;
-	float: left;
+	float: right;
 	color: white;
 	padding: 10px 0;
 }
 
 footer .footer-box{
-	width: 33%;
+	width: 27%;
 	float: left;
+	margin-left: 2.8em;
 	height: 100%;
     font-size: 20px;
 }

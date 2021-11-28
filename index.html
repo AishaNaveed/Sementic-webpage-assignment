@@ -39,118 +39,110 @@
         </section>
     </header>
 
-    <main>
-        <section class="container">
-            <article class="section-bg-box">
-                <h2> COVID RESTRICTION UPDATE</h2>
-                <p>Throughout the pandemic we have strove to make the surgery as safe as possible for all our
-                    patients and staff, we will continue to do so.</p>
-                <p>From the <span> 19TH JULY 2021 NOTHING WILL CHANGE AT THE SURGERY</span> – Patients will still need to
-                    wear a mask, socially distance and use hand sanitiser in the surgery and staff will continue to
-                    wear PPE.</p>
-                <p>If you arrive without a mask and are not exempt, you will be asked to leave.</p>
+    <main class="container">
+        <article class="section-bg-box">
+            <h2> COVID RESTRICTION UPDATE</h2>
+            <p>Throughout the pandemic we have strove to make the surgery as safe as possible for all our
+                patients and staff, we will continue to do so.</p>
+            <p>From the <span> 19TH JULY 2021 NOTHING WILL CHANGE AT THE SURGERY</span> – Patients will still need to
+                wear a mask, socially distance and use hand sanitiser in the surgery and staff will continue to
+                wear PPE.</p>
+            <p>If you arrive without a mask and are not exempt, you will be asked to leave.</p>
+        </article>
+        <div class="section-img"></div>
+
+        <section>
+            <h2 class="welcome-text"> Welcome to the Tech Returners Surgery</h2>
+            <p>Tech Returners surgery aims to provide its patients with a high standard of medical care in a safe,
+                caring and professional manner.</p>
+
+            <p>The ethos of our practice is ‘to treat others how we ourselves would wish to be treated and to
+                educate others to sustain good quality patient care”.
+            </p>
+        </section>
+        <br />
+        <div id="links" class="container">
+            <section class="box">
+                <img src="Images/health-help.jpg" alt="Get help now">
+                <h3><a href="#">Get Help Now</a></h3>
+            </section>
+            <section class="box">
+                <img src="Images/Self-Care.jpg" alt="Self Care Advice">
+                <h3><a href="#">Self Care Advice</a></h3>
+            </section>
+            <section class="box">
+                <img src="Images/Wellbeing.jpg" alt="Well-being Centre">
+                <h3><a href="#">Well-being Centre</a></h3>
+            </section>
+            <section class="box">
+                <img src="Images/repeat-prescription.PNG" alt="Repeat Prescription">
+                <h3><a href="#">Repeat Prescription</a></h3>
+            </section>
+        </div>
+        <br />
+        <section>
+            <h2>User Registration</h2>
+            <hr>
+            <form class="form-box">
+                <!--created check boxes -->
+                <input id="Yourself" type="checkbox" name="personality" value="Yourself">
+                <label for="Yourself"><strong>Yourself</strong></label>
+
+                <input id="someone-else" type="checkbox" name="personality" value="someone-else">
+                <label for="someone-else"><strong>Someone else</strong></label>
+                <br /><br />
+
+                <!--created form fields-->
+                <input type="text" name="first-name" id="first-name" placeholder="First Name..." />
+                <label for="first-name"><strong>First Name :</strong></label>
+                <br /><br />
+
+                <input type="text" name="last-name" id="last-name" placeholder="Last Name..." />
+                <label for="last-name"><strong> Name :</strong></label>
+                <br /><br />
+
+                <input type="date" name="date-of-birth" id="date-of-birth" />
+                <label for="date-of-birth"><strong>Date of birth :</strong></label>
+                <br /><br />
+
+                <input type="email" name="email" id="email" placeholder="someone@email.com" />
+                <label for="email"><strong>Email :</strong></label>
+                <br /><br />
+
+                <input type="tel" name="mobile" id="mobile" placeholder="0044-xxx" />
+                <label for="mobile"><strong>Mobile :</strong></label>
+                <br /><br />
+
+                <textarea id="Message"> </textarea>
+                <label for="Message"><strong>Your Query :</strong></label>
+                <br /><br />
+
+                <button type="submit" id="register-btn">Submit</button>
+            </form>
+            <article class="sidevideo">
+                <h2>How to use Ask My Doc?</h2>
+                <iframe width="450" height="315" src="https://www.youtube.com/embed/sFzCh-HhaWo">
+                </iframe>
             </article>
-            <div class="section-img">
-
-            </div>
-
-            <section>
-                <h2 class="welcome-text"> Welcome to the Tech Returners Surgery</h2>
-                <p>Tech Returners surgery aims to provide its patients with a high standard of medical care in a safe,
-                    caring and professional manner.</p>
-
-                <p>The ethos of our practice is ‘to treat others how we ourselves would wish to be treated and to
-                    educate others to sustain good quality patient care”.
-                </p>
-            </section>
-            <br />
-            <section id="links">
-                <div class="container">
-                    <section class="box">
-                        <img src="Images/health-help.jpg" alt="Get help now">
-                        <h3><a href="#">Get Help Now</a></h3>
-                    </section>
-                    <section class="box">
-                        <img src="Images/Self-Care.jpg" alt="Self Care Advice">
-                        <h3><a href="#">Self Care Advice</a></h3>
-                    </section>
-                    <section class="box">
-                        <img src="Images/Wellbeing.jpg" alt="Well-being Centre">
-                        <h3><a href="#">Well-being Centre</a></h3>
-                    </section>
-                    <section class="box">
-                        <img src="Images/repeat-prescription.PNG" alt="Repeat Prescription">
-                        <h3><a href="#">Repeat Prescription</a></h3>
-                    </section>
-                </div>
-            </section>
-            <br />
-            <section class="container">
-                <h2>User Registration</h2>
-                <hr>
-                <form class="form-box">
-                    <!--created check boxes -->
-                    <input id="Yourself" type="checkbox" name="personality" value="Yourself">
-                    <label for="Yourself"><strong>Yourself</strong></label>
-
-                    <input id="Someone else" type="checkbox" name="personality" value="Someone else">
-                    <label for="Someone else"><strong>Someone else</strong></label>
-                    <br /><br />
-
-                    <!--created form fields-->
-                    <input type="text" name="name" id="name" placeholder="First Name..." />
-                    <label for="name"><strong>First Name :</strong></label>
-                    <br /><br />
-
-                    <input type="text" name="name" id="name" placeholder="Last Name..." />
-                    <label for="name"><strong> Name :</strong></label>
-                    <br /><br />
-
-                    <input type="date" name="date-of-birth" id="date-of-birth" placeholder="DOB..." />
-                    <label for="date-of-birth"><strong>Date of birth :</strong></label>
-                    <br /><br />
-
-                    <input type="email" name="email" id="email" placeholder="someone@email.com" />
-                    <label for="email"><strong>Email :</strong></label>
-                    <br /><br />
-
-                    <input type="tel" name="mobile" id="mobile" placeholder="0044-xxx" />
-                    <label for="mobile"><strong>Mobile :</strong></label>
-                    <br /><br />
-
-                    <textarea id="Message"> </textarea>
-                    <label for="Message"><strong>Your Query :</strong></label>
-                    <br /><br />
-
-                    <button type="submit" id="register-btn">Submit</button>
-                </form>
-                <article class="sidevideo">
-                    <h2>How to use Ask My Doc?</h2>
-                    <iframe width="450" height="315" src="https://www.youtube.com/embed/sFzCh-HhaWo">
-                    </iframe>
-                </article>
-            </section>
+        </section>
     </main>
 
     <footer>
-        <section class="container">
-            <section class="footer-box">
-                <h3>Contact Details</h3>
-                <p>The tech Returners Surgery <br>115 Mancunian Way, <br>Manchester, <br>UK, <br>M20 3PX <br>Tel: 0333
-                    050 9138 </p>
-            </section>
-            <section class="footer-box">
-                <h3>Surgery timings</h3>
-                <p>Monday - Fridays: 8am - 7pm <br>Saturdays - Sundays: 10am - 4pm</p>
-            </section>
-            <section class="footer-box">
-                <h2>Tech Returners Surgery</h2>
-                <a href="#">Accessibility</a>
-                <a href="#">Privacy</a>
-            </section>
+        <section class="footer-box">
+            <h3>Contact Details</h3>
+            <p>The tech Returners Surgery <br>115 Mancunian Way, <br>Manchester, <br>UK, <br>M20 3PX <br>Tel: 0333
+                050 9138 </p>
+        </section>
+        <section class="footer-box">
+            <h3>Surgery timings</h3>
+            <p>Monday - Fridays: 8am - 7pm <br>Saturdays - Sundays: 10am - 4pm</p>
+        </section>
+        <section class="footer-box">
+            <h2>Tech Returners Surgery</h2>
+            <a href="#">Accessibility</a>
+            <a href="#">Privacy</a>
         </section>
     </footer>
-
 </body>
 
 </html>
