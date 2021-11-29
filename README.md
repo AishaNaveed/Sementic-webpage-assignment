@@ -1,5 +1,12 @@
-Tech Returners Doctor's surgery.
-===============================
+# Getting started
+=================
+
+* Fork this repository to your own GitHub account.
+* Open up the project in Visual Studio Code
+* Open up the index.html file in your browser
+
+# Tech Returners Doctor's surgery.
+==================================
 
 * Created webpage using semantic HTML tags for better accessibility.
 * Semantic Code means code that is easy to draw or from.
