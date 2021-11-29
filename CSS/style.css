@@ -223,7 +223,6 @@ section h2{
 
 /*Start of form links*/
 section .form-box label{
-	
 	float: left;
 	width: 20%;
 }
@@ -237,10 +236,10 @@ section .form-box form{
 	box-sizing: border-box;
 }
 
-section .form-box input:focus,textarea:focus,button:focus{
+section .form-box input:focus, textarea:focus, button:focus{
 	outline: none;
 }
-section .form-box input,textarea{
+section .form-box input, textarea{
 	width: 50%;
 	height: 35px;
 	border:1px solid #ccc;
@@ -248,37 +247,24 @@ section .form-box input,textarea{
 	padding: 0 10px;
 	font-family: Gotu;
 	font-size: 16px;
+	margin-bottom: 0.5em;
 }
 textarea{
 	height: 100px;
 }
-section .form-box #register-btn, #login-btn, #contact-btn{
+#register-btn{
 	font-family: Muli;
 	font-size: 20px;
 	color: white;
-	padding: 10px;
+	padding: 0.5em;
 	border:none;
 	background-color: crimson;
 	cursor: pointer;
 	border-radius: 3px;
 }
-section .form-box form #login-btn{
-	background: red;
-}
-section .form-box form #contact-btn{
-	background: blue;
-}
-section .form-box form #register-btn{
-	background: #007bff;
-}
-section .form-box form #contact-btn:hover{
-	background: #080896;
-}
-section .form-box form #login-btn:hover{
-	background: #9E0707;
-}
-section .form-box form #register-btn:hover{
-	background: blue;
+
+#register-btn:hover{
+	background: green;
 }
 /*End of form links*/
 
